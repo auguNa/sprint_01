@@ -1,50 +1,50 @@
 package s01_01.n3ejercicio1;
 
-public class NoticiaTenis extends Noticia{
-    private String competicion;
-    private String jugador;
-    private static int contador = 1;
+public class NewsTenis extends News{
+    private String competition;
+    private String player;
+    private static int counter = 1;
     private final int id;
 
-    public NoticiaTenis(String titular, String competicion, String jugador) {
-        super(titular);
+    public NewsTenis(String owner, String competition, String player) {
+        super(owner);
 
-        this.competicion = competicion;
-        this.jugador = jugador;
-        this.id = contador ++;
-        calcularPrecioNoticia();
-        calcularPuntuacion();
+        this.competition = competition;
+        this.player = player;
+        this.id = counter ++;
+        calculatePriceNews();
+        calculatePunctuation();
     }
     public int getId() {
         return id;
     }
     @Override
-    public void calcularPrecioNoticia() {
-        this.precio = 150;
-        if (jugador.equalsIgnoreCase("Federer, Navidad, Djokovic")) {
-            precio += 100;
+    public void calculatePriceNews() {
+        this.price = 150;
+        if (player.equalsIgnoreCase("Federer, Navidad, Djokovic")) {
+            price += 100;
         }
-        setPrecio(precio);
+        setPrice(price);
     }
 
 
     @Override
-    public void calcularPuntuacion() {
-        int puntuacion = 4;
-        if(jugador.equalsIgnoreCase("Federer, Navidad, Djokovic")){
-            puntuacion += 3;
+    public void calculatePunctuation() {
+        int punctuation = 4;
+        if(player.equalsIgnoreCase("Federer, Navidad, Djokovic")){
+            punctuation += 3;
         }
     }
 
     @Override
     public String toString() {
-        return "NoticiaTenis{" +
-                "competicion='" + competicion + '\'' +
-                ", jugador='" + jugador + '\'' +
-                ", titular='" + titular + '\'' +
-                ", puntuacion=" + puntuacion +
-                ", texto='" + texto + '\'' +
-                ", precio=" + precio +
+        return "NewsTenis{" +
+                "competition='" + competition + '\'' +
+                ", player='" + player + '\'' +
+                ", owner='" + owner + '\'' +
+                ", punctuation=" + punctuation +
+                ", text='" + text + '\'' +
+                ", price=" + price +
                 '}';
     }
 }

@@ -1,0 +1,11 @@
+
+}
+java:S1141
+"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8©»èÒù1J$0fb5e5d8-1ea8-4fef-80eb-84dd91a6d75b
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Œİç˜J$8d8ebd40-d9ca-4b2c-8025-56bea99d24e3
+k	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿJ$caf23da7-09ce-4997-a813-ded83efc6735
+k	java:S106"+Replace this use of System.out by a logger.(ÁõÒ¸ùÿÿÿÿJ$9ae83527-074e-434f-9d6f-1ff71d3ee967
+k	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿJ$1644361b-d92b-4745-bc89-f31ea2f31260
+f	java:S106"+Replace this use of System.out by a logger.(äìÎÆJ$58547858-8185-4198-a283-28a295b82e4b
+l
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒJ$5eafcdc8-ed6d-460d-b86f-f3476a9598f4

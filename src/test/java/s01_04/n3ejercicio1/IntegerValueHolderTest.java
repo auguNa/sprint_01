@@ -1,4 +1,27 @@
-import static org.junit.jupiter.api.Assertions.*;
+package s01_04.n3ejercicio1;
+
+import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+
 class IntegerValueHolderTest {
-  
+    @Test
+    public void testValuesAreEqual() {
+        IntegerValueHolder holder1 = new IntegerValueHolder(100);
+        IntegerValueHolder holder2 = new IntegerValueHolder(100);
+
+        // Assert that the values are equal
+        assertThat(holder1.getValue()).isEqualTo( holder2.getValue());
+    }
+
+    @Test
+    public void testValuesAreNotEqual() {
+        IntegerValueHolder holder1 = new IntegerValueHolder(100);
+        IntegerValueHolder holder2 = new IntegerValueHolder(200);
+
+        // Assert that the values are not equal
+        assertThat(holder1.getValue()).isNotEqualTo(holder2.getValue());
+
+    }
 }

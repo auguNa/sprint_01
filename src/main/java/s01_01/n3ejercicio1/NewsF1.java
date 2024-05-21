@@ -2,26 +2,26 @@ package s01_01.n3ejercicio1;
 
 import java.util.Objects;
 
-public class NoticiaF1 extends Noticia {
-    private String escuderia;
-    private static int contador = 1;
+public class NewsF1 extends News {
+    private static int counter = 1;
     private final int id;
+    private String team;
 
-    public NoticiaF1(String titular, String escuderia) {
-        super(titular);
-        this.escuderia = escuderia;
-        this.id = contador ++;
-        calcularPrecioNoticia();
-        calcularPuntuacion();
+    public NewsF1(String owner, String team) {
+        super(owner);
+        this.team = team;
+        this.id = counter++;
+        calculatePriceNews();
+        calculatePunctuation();
     }
 
     @Override
-    public void calcularPrecioNoticia() {
-        this.precio = 100;
-        if (escuderia.equalsIgnoreCase("Ferrari") || escuderia.equalsIgnoreCase("Mercedes")) {
-            precio += 50;
+    public void calculatePriceNews() {
+        this.price = 100;
+        if (team.equalsIgnoreCase("Ferrari") || team.equalsIgnoreCase("Mercedes")) {
+            price += 50;
         }
-        setPrecio(precio);
+        setPrice(price);
     }
 
     public int getId() {
@@ -29,34 +29,34 @@ public class NoticiaF1 extends Noticia {
     }
 
     @Override
-    public void calcularPuntuacion() {
-        int puntuacion = 4;
-        if (escuderia.equalsIgnoreCase("Ferrari") || escuderia.equalsIgnoreCase("Mercedes")) {
-            puntuacion += 2;
+    public void calculatePunctuation() {
+        int punctuation = 4;
+        if (team.equalsIgnoreCase("Ferrari") || team.equalsIgnoreCase("Mercedes")) {
+            punctuation += 2;
         }
-        setPuntuacion(puntuacion);
+        setPunctuation(punctuation);
     }
 
     @Override
     public String toString() {
-        return "NoticiaF1{" +
-                "escuderia='" + escuderia + '\'' +
-                ", titular='" + titular + '\'' +
-                ", texto='" + texto + '\'' +
-                ", puntuacion=" + puntuacion +
-                ", precio=" + precio +
+        return "NewsF1{" +
+                "team='" + team + '\'' +
+                ", owner='" + owner + '\'' +
+                ", text='" + text + '\'' +
+                ", punctuation=" + punctuation +
+                ", price=" + price +
                 '}';
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof NoticiaF1 noticiaF1)) return false;
-        return id == noticiaF1.id && Objects.equals(escuderia, noticiaF1.escuderia);
+        if (!(o instanceof NewsF1 newsF1)) return false;
+        return id == newsF1.id && Objects.equals(team, newsF1.team);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(escuderia, id);
+        return Objects.hash(team, id);
     }
 }

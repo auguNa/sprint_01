@@ -1,0 +1,22 @@
+
+	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(—ª¾éJ$74a405e9-dfbe-47bb-b2a9-3c59c337c6d9
+†	java:S112l"FDefine and throw a dedicated exception instead of using a generic one.(âÌ·ùÿÿÿÿJ$a73a09ed-8704-4ba7-b73a-0f029bbab853
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢Òµ»J$e3531f1c-46a7-4a6c-8a2c-da8d5edc83f1
+¨
+java:S4165i"gRemove this useless assignment; "userInput" already holds the assigned value along all execution paths.(ú£ûÒÿÿÿÿÿJ$8d356be4-27a9-46bf-9908-aca59adf52ff
+v
+java:S1118":Add a private constructor to hide the implicit public one.(¦÷¼ŞJ$d032349b-94a0-4472-ba69-0196004329ca
+k	java:S106"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿJ$f7d91b1a-4c50-4e28-99ea-ec2f0b70196e
+f	java:S106"+Replace this use of System.out by a logger.(Ş©•öJ$2cb1ad03-377f-4426-ac95-c3ef98ab3700
+k	java:S106"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿJ$98c3fabc-098b-4b17-ab8c-fc4213b283c8
+k	java:S106"+Replace this use of System.out by a logger.(ÒĞšÒüÿÿÿÿJ$b0a3e768-ef7f-443a-a952-765624fa9170
+k	java:S106$"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿJ$4a3cf1c7-6d81-4240-babd-04aa38c800fe
+k	java:S106("+Replace this use of System.out by a logger.(›§ÓşÿÿÿÿJ$b2bd3909-de0d-4aa9-8c7f-6b6cba2df32f
+k	java:S1061"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿJ$1abfa4d0-b059-4740-9e82-ac869e2fb591
+k	java:S1065"+Replace this use of System.out by a logger.(›§ÓşÿÿÿÿJ$d49de246-5f5a-4117-878a-73b317bf36d8
+k	java:S106>"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿJ$d395afbb-c565-427e-9c5d-e40ec004727b
+k	java:S106E"+Replace this use of System.out by a logger.(şğïÆûÿÿÿÿJ$fffed31d-a9a4-4f90-b10f-6e8fb194fef5
+k	java:S106P"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿJ$0067b46f-d67d-4f12-b8f0-138f112e0ed5
+e	java:S106U"+Replace this use of System.out by a logger.(ÚÁ:J$13cd8b7d-91da-41f6-b4b1-8f3c52141ee4
+k	java:S106b"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿJ$5bace323-282c-4e13-b7ad-b7b2f2cae4e0
+k	java:S106p"+Replace this use of System.out by a logger.(–Û›´ıÿÿÿÿJ$0090f596-eaa0-46da-9283-426199c2a688

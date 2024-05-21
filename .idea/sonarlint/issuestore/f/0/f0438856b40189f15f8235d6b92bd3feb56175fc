@@ -1,0 +1,16 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£ÍÇ…
+b
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÛÈ¬¤
+a
+java:S20955"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ï¸âJ
+g
+java:S2677"LUse or store the value returned from "readLine" instead of throwing it away.(£­—âÿÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(¿¨˜
+@	java:S106"+Replace this use of System.out by a logger.(î–Ð«
+@	java:S106("+Replace this use of System.out by a logger.(äèÞÊ
+E	java:S106-"+Replace this use of System.out by a logger.(îö¸åúÿÿÿÿ
+@	java:S1060"+Replace this use of System.out by a logger.(ê«ñ£
+E	java:S106;"+Replace this use of System.out by a logger.(ÒÎÍ¤þÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ

@@ -1,8 +1,8 @@
-package s01_02.n1ejercicio1;
+package s01_01.n2ejercicio1;
 
 public class Telefono {
-    private String marca;
-    private String modelo;
+    protected String marca;
+    protected String modelo;
 
     public Telefono(String marca, String modelo) {
         this.marca = marca;

@@ -7,7 +7,15 @@ public class InstrumentoViento extends Instrumento {
     }
 
     @Override
-    public void tocacar() {
-        System.out.println("Esta sonando un instrumento de viento");
+    public String toString() {
+        return "InstrumentoViento{" +
+                "nombre='" + nombre + '\'' +
+                ", precio=" + precio +
+                '}';
+    }
+
+    @Override
+    public String tocar() {
+       return "Esta sonando un instrumento de viento";
     }
 }

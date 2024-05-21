@@ -1,7 +1,8 @@
 package s01_01.n1ejercicio2;
 
 public class Coche {
-    private static final String marca = "Toyota";
+
+    private static final String MARCA = "Toyota";
     private static String modelo;
     private final int potencia;
 
@@ -19,7 +20,7 @@ public class Coche {
     }
 
     public static String getMarca() {
-        return marca;
+        return MARCA;
     }
 
     public static String getModelo() {
@@ -30,4 +31,14 @@ public class Coche {
         return potencia;
     }
 
-   }
+    public static void setModelo(String modelo) {
+        Coche.modelo = modelo;
+    }
+
+    @Override
+    public String toString() {
+        return "Coche{" +
+                "potencia=" + potencia +
+                '}';
+    }
+}

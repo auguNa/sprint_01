@@ -6,8 +6,16 @@ public class InstrumentoPercucion extends Instrumento {
     }
 
     @Override
-    public void tocacar() {
-        System.out.println("Esta sonando un instumento de percucion.");
+    public String toString() {
+        return "InstrumentoPercucion{" +
+                "nombre='" + nombre + '\'' +
+                ", precio=" + precio +
+                '}';
+    }
+
+    @Override
+    public String tocar() {
+        return "Esta sonando un instumento de percucion.";
     }
 }
 

@@ -1,0 +1,153 @@
+
+—
+java:S1192Á"NDefine a constant instead of duplicating this literal "Competition: " 3 times.(°‰—‰üÿÿÿÿ8ÙÁ‚×ù1J$c7d6e05b-6a5f-40f9-a196-4bcd262974d6
+Ÿ
+java:S1192÷"VDefine a constant instead of duplicating this literal "Type redactor DNI's: " 3 times.(×…¸¯ÿÿÿÿÿ8ÚÁ‚×ù1J$a9b8d336-58df-4362-98a5-fc3bf9288fa1
+—
+java:S1192t"ODefine a constant instead of duplicating this literal "Type news ID: " 4 times.(ñ¨­—ùÿÿÿÿ8ÚÁ‚×ù1J$7d4c59c8-c5ed-48ed-b457-e9488ec18df6
+—
+java:S1192Ç"SDefine a constant instead of duplicating this literal "News non-existent!" 5 times.(À‘Î8ÚÁ‚×ù1J$d5177c01-c316-450e-92c0-f206ee5f13d2
+¯
+java:S13197"gThe type of "editors" should be an interface such as "List" rather than the implementation "ArrayList".(âòÚ ûÿÿÿÿ8İÁ‚×ù1J$766b9311-34a6-4409-9d31-4a5c92099fc2
+¯
+java:S1319F"gThe type of "editors" should be an interface such as "List" rather than the implementation "ArrayList".(àœÅ•ıÿÿÿÿ8İÁ‚×ù1J$a2176419-0830-4254-9a6c-7ddd9122e845
+ª
+java:S1319R"gThe type of "editors" should be an interface such as "List" rather than the implementation "ArrayList".(¡ÓÔØ8İÁ‚×ù1J$cd1f081c-a30e-4c6c-9c9d-cbd4f8e985bc
+¯
+java:S1319Z"gThe type of "editors" should be an interface such as "List" rather than the implementation "ArrayList".(”®æıÿÿÿÿ8İÁ‚×ù1J$86bc839f-e4be-4ca0-91d9-a17cfdf882ed
+¯
+java:S1319h"gThe type of "editors" should be an interface such as "List" rather than the implementation "ArrayList".(Ëíé½üÿÿÿÿ8ŞÁ‚×ù1J$3d40907e-63a4-4596-92c2-75c428ec9caf
+´
+java:S1319°"kThe type of "newsWritten" should be an interface such as "List" rather than the implementation "ArrayList".(îïƒ­ûÿÿÿÿ8ŞÁ‚×ù1J$7d75a12f-adbb-43da-adb9-eaf1669a6367
+¯
+java:S1319Í"kThe type of "newsWritten" should be an interface such as "List" rather than the implementation "ArrayList".(µ½û½8ŞÁ‚×ù1J$498c53b3-b8ea-40f6-95e4-609146edccd7
+¯
+java:S1319ç"kThe type of "newsWritten" should be an interface such as "List" rather than the implementation "ArrayList".(ˆ½Å›8ŞÁ‚×ù1J$8fceac26-3de3-48b1-a006-7dcb37d0f711
+´
+java:S1319"kThe type of "newsWritten" should be an interface such as "List" rather than the implementation "ArrayList".(³ì›ôúÿÿÿÿ8ßÁ‚×ù1J$cbd75c26-f8de-4bbf-9c0c-a207f626e5b7
+´
+java:S1319™"kThe type of "newsWritten" should be an interface such as "List" rather than the implementation "ArrayList".(ÛĞíºùÿÿÿÿ8ßÁ‚×ù1J$6e9fcfd1-918e-409e-ad3b-f9784b591b1e
+°
+java:S1319±"gThe type of "editors" should be an interface such as "List" rather than the implementation "ArrayList".(‹¥ˆƒıÿÿÿÿ8ßÁ‚×ù1J$cd8c35c8-b59d-4cfe-b80e-e4f9ed35ad76
+°
+java:S1319õ"gThe type of "editors" should be an interface such as "List" rather than the implementation "ArrayList".(º¤Õäûÿÿÿÿ8ßÁ‚×ù1J$215431dc-820d-4a6c-b8b1-ab2d29980ee5
+«
+java:S1319‚"gThe type of "editors" should be an interface such as "List" rather than the implementation "ArrayList".(‰÷âÖ8ßÁ‚×ù1J$63003454-fe2a-49a0-b8c6-79bbe043ed1d
+°
+java:S1319"gThe type of "editors" should be an interface such as "List" rather than the implementation "ArrayList".(¯Àìüúÿÿÿÿ8àÁ‚×ù1J$ea3bd397-908d-4f8f-8427-98d220a0201f
+¡
+java:S1488V"^Immediately return this expression instead of assigning it to the temporary variable "editor".(™ØèÙ8éÁ‚×ù1J$59f424c4-51fa-408e-afe3-6f0fac45599e
+­
+java:S1488È"dImmediately return this expression instead of assigning it to the temporary variable "newsFootball".( Ú€¬üÿÿÿÿ8êÁ‚×ù1J$1dc0cfe6-8127-43d9-b3a9-71483dde25bf
+ª
+java:S1488â"fImmediately return this expression instead of assigning it to the temporary variable "newsBasketball".(Çœı8êÁ‚×ù1J$89e83e5d-13b7-4c32-ae1a-01b1c9b08cd9
+ª
+java:S1488ü"aImmediately return this expression instead of assigning it to the temporary variable "newsTenis".(©ĞÇ‚ùÿÿÿÿ8êÁ‚×ù1J$52731b63-8872-4db2-ab65-f007ccc141f4
+§
+java:S1488”"^Immediately return this expression instead of assigning it to the temporary variable "newsF1".(íĞ’¯üÿÿÿÿ8êÁ‚×ù1J$206c73b2-fa94-43a1-b299-ddaa77a1e7ae
+¤
+java:S1488¬"`Immediately return this expression instead of assigning it to the temporary variable "newsMoto".(˜»Ôª8êÁ‚×ù1J$5f2c0841-8f7d-47dc-bac2-a69b2b22e89b
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íğ¯Ø8øÁ‚×ù1J$e0b317c2-47e9-4ca2-89cf-996feb54779c
+ƒ	java:S125	"<This block of commented-out lines of code should be removed.(ïæœüûÿÿÿÿ8ÛÚ…×ù1J$d6e0ff6b-feed-4caa-92d9-6a72691c6cf0
+r	java:S106"+Replace this use of System.out by a logger.(²“ìıÿÿÿÿ8ÇÄ‚×ù1J$b5d8fd41-ccf1-4923-9ce1-b3b203a0af2f
+r	java:S106"+Replace this use of System.out by a logger.(ãÂ şÿÿÿÿ8ÈÄ‚×ù1J$e899e5a9-72a6-4c3f-9b5c-8cf6a501bdfb
+r	java:S106"+Replace this use of System.out by a logger.(İ¢õ¡ûÿÿÿÿ8ÉÄ‚×ù1J$de488873-e851-4612-846f-e592a74d2b7d
+m	java:S106"+Replace this use of System.out by a logger.(²½Á‹8ÏÄ‚×ù1J$3d566795-5b90-4950-a42a-d788bfd38744
+r	java:S106"+Replace this use of System.out by a logger.(Ä¼ºÿøÿÿÿÿ8ÑÄ‚×ù1J$9160c1b5-a5c2-4505-9ffc-7a99cddedd37
+m	java:S106"+Replace this use of System.out by a logger.(½Šıç8ÓÄ‚×ù1J$99010d91-4d2d-4825-86f2-3a7541a00b2c
+m	java:S106"+Replace this use of System.out by a logger.(®œ¢˜8ÓÄ‚×ù1J$ad9ba0f2-5508-49ca-924c-d1d030e76b57
+m	java:S106"+Replace this use of System.out by a logger.(ßè„8ØÄ‚×ù1J$c152cf25-2786-4818-ad08-abfe41a4f85e
+r	java:S1060"+Replace this use of System.out by a logger.(´õ–ÿùÿÿÿÿ8ØÄ‚×ù1J$0367fc43-95b5-41c7-afc8-5a5becebd0c0
+m	java:S1063"+Replace this use of System.out by a logger.(×ÅšÃ8ÙÄ‚×ù1J$9814ddc7-1e6d-441e-9f26-5d52f72d63fe
+m	java:S1069"+Replace this use of System.out by a logger.(’„¥¿8ÚÄ‚×ù1J$8925209c-80a4-46b0-9e93-6b01d0405e14
+r	java:S106@"+Replace this use of System.out by a logger.(¨ÂÙ¢úÿÿÿÿ8ÛÄ‚×ù1J$bce637b3-63e7-4716-a5b3-9bbfd138fee1
+m	java:S106B"+Replace this use of System.out by a logger.(·„Šñ8ÛÄ‚×ù1J$01f0a9c6-ed71-4ddb-9446-3b768af88f5b
+
+java:S6201J"FReplace this instanceof check and cast with 'instanceof Editor editor'(Û¥ì×ıÿÿÿÿ8ËÄ‚×ù1J$6802ae8d-4423-4d54-a09c-7343747f10a9
+q
+java:S1905K")Remove this unnecessary cast to "Editor".(â©Üùûÿÿÿÿ8ÌÄ‚×ù1J$4256404b-3b6a-4267-949c-cac2642cdd51
+q
+java:S1172R".Remove this unused method parameter "editors".(¡ÓÔØ8ÏÄ‚×ù1J$376328d8-ad32-40f6-b1af-c7dbd241bf54
+m	java:S106T"+Replace this use of System.out by a logger.(´›äÆ8ÜÄ‚×ù1J$8575f00c-c2f9-4278-a647-74140062625c
+m	java:S106\"+Replace this use of System.out by a logger.(å¾Ü®8İÄ‚×ù1J$46dcbe2c-12ce-4aa2-bdd1-c6a1f9083a75
+m	java:S106b"+Replace this use of System.out by a logger.(Ô®—Ò8İÄ‚×ù1J$5746ec11-735d-4069-af65-75145167ff8f
+r	java:S106d"+Replace this use of System.out by a logger.(¹•§æùÿÿÿÿ8ŞÄ‚×ù1J$c3b41b2b-3020-4ee7-8b51-aad052a3cb5a
+š
+java:S3776h"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Ëíé½üÿÿÿÿ8ÔÄ‚×ù1J$5aa08969-4c77-4439-99ad-86001c2fd5da
+~
+java:S1854£":Remove this useless assignment to local variable "newsF1".(¬Æúİ8ÖÄ‚×ù1J$3dce5e2d-3b2f-42d6-8d2d-2937fa072868
+r	java:S106j"+Replace this use of System.out by a logger.(Ÿğéşÿÿÿÿ8ŞÄ‚×ù1J$64c51c6c-a51c-489f-9700-118386b28287
+m	java:S106o"+Replace this use of System.out by a logger.(Ççˆ’8ßÄ‚×ù1J$b741b55e-d5f4-4acc-9ee6-52fffac4e3f6
+r	java:S106t"+Replace this use of System.out by a logger.(ñ¨­—ùÿÿÿÿ8ßÄ‚×ù1J$1700b670-d620-43b5-b398-dc160481817a
+m	java:S106}"+Replace this use of System.out by a logger.(ØÔ‹©8ßÄ‚×ù1J$03bbdf50-c9b1-4d14-94fc-465ae30ca294
+r	java:S106"+Replace this use of System.out by a logger.(ŞœÜ›ÿÿÿÿÿ8ãÄ‚×ù1J$2aa1711d-f8c5-4cf8-b70d-8502f8efd847
+s	java:S106‡"+Replace this use of System.out by a logger.(¦ÌÒúÿÿÿÿ8äÄ‚×ù1J$ecfba345-ba77-44ee-b50a-3cfe7b86295e
+n	java:S106‰"+Replace this use of System.out by a logger.(ôú°8äÄ‚×ù1J$ee9afa27-7030-4135-a460-34da4b2ea658
+n	java:S106‘"+Replace this use of System.out by a logger.(»«ùÉ8äÄ‚×ù1J$931a1f56-ae28-4fec-9d49-98485e5957a9
+n	java:S106“"+Replace this use of System.out by a logger.(µ„İ8èÄ‚×ù1J$770f059b-2bd5-469b-ad1d-d204dc204d9a
+n	java:S106›"+Replace this use of System.out by a logger.(ûÈÖ8èÄ‚×ù1J$ea38325b-15d4-497f-bb8c-1af30d439334
+n	java:S106"+Replace this use of System.out by a logger.(ø™İÒ8èÄ‚×ù1J$1bf2ce35-9e8d-4f08-b951-1599ed6f11ab
+m	java:S106¥"+Replace this use of System.out by a logger.(·£Ë^8ëÄ‚×ù1J$2d139cc7-0b50-4f55-ac3d-ea7e1157bc82
+s	java:S106§"+Replace this use of System.out by a logger.(„¨¶şÿÿÿÿ8ìÄ‚×ù1J$29881e23-255d-48ab-8635-1267c4001364
+s	java:S106«"+Replace this use of System.out by a logger.(Õˆ’Óıÿÿÿÿ8ìÄ‚×ù1J$ff4eaa15-7c0b-46fe-9b75-e4d0e92040fb
+–
+java:S6201´"RReplace this instanceof check and cast with 'instanceof NewsFootball newsfootball'(æÛï8àÄ‚×ù1J$da1ce8c8-adfb-4254-b83b-6be09693e373
+–
+java:S6201´"RReplace this instanceof check and cast with 'instanceof NewsFootball newsfootball'(æÛï8àÄ‚×ù1J$be6c17e4-52d0-4702-95b6-02911cc1fac5
+n	java:S106¾"+Replace this use of System.out by a logger.(ïíğÎ8ïÄ‚×ù1J$b81db838-130e-479c-8da3-369c16b65b0b
+s	java:S106Á"+Replace this use of System.out by a logger.(°‰—‰üÿÿÿÿ8ïÄ‚×ù1J$f9f260f7-aa53-4854-82b2-571a26ffa58b
+s	java:S106Ã"+Replace this use of System.out by a logger.( ³ ¯úÿÿÿÿ8óÄ‚×ù1J$e05f2bce-b94f-420e-8997-093db9570236
+s	java:S106Å"+Replace this use of System.out by a logger.(Ëœ×›ùÿÿÿÿ8ôÄ‚×ù1J$2f7984c8-0475-4359-b330-8c280b5029c5
+Ÿ
+java:S6201Ñ"VReplace this instanceof check and cast with 'instanceof NewsBasketball newsbasketball'(Ú‚–÷üÿÿÿÿ8æÄ‚×ù1J$3d6f1a2e-08e1-4718-8e9f-4a127aa1bb97
+Ÿ
+java:S6201Ñ"VReplace this instanceof check and cast with 'instanceof NewsBasketball newsbasketball'(Ú‚–÷üÿÿÿÿ8æÄ‚×ù1J$83ad1b9e-0a84-42b9-9818-6f9b3ef783e9
+n	java:S106Û"+Replace this use of System.out by a logger.(Ôğº8öÄ‚×ù1J$4b873c7b-bd70-48d5-befe-e4a3df17a3c1
+s	java:S106İ"+Replace this use of System.out by a logger.(°‰—‰üÿÿÿÿ8÷Ä‚×ù1J$25ed4dfc-4063-493c-b26a-d4e2ac383306
+s	java:S106ß"+Replace this use of System.out by a logger.( ³ ¯úÿÿÿÿ8÷Ä‚×ù1J$50ccf3b4-ee66-4724-8718-fb082739cd80
+•
+java:S6201ë"LReplace this instanceof check and cast with 'instanceof NewsTenis newstenis'(ššŠ©úÿÿÿÿ8êÄ‚×ù1J$fc051d0a-5f11-4214-91c6-f5b53133a02a
+•
+java:S6201ë"LReplace this instanceof check and cast with 'instanceof NewsTenis newstenis'(ššŠ©úÿÿÿÿ8êÄ‚×ù1J$ac67b60a-0eac-428e-888f-3ae0a5c36e18
+s	java:S106õ"+Replace this use of System.out by a logger.(Ú‰€Ëûÿÿÿÿ8ùÄ‚×ù1J$a39d74af-8ea0-4003-b1ef-541abd635edf
+s	java:S106÷"+Replace this use of System.out by a logger.(°‰—‰üÿÿÿÿ8ùÄ‚×ù1J$e4a7c0c2-e1c0-4047-bcbc-7fa73c5a5e30
+s	java:S106ù"+Replace this use of System.out by a logger.(Ëœ×›ùÿÿÿÿ8úÄ‚×ù1J$115255bd-503b-4460-b1af-bb67c4018bf6
+
+java:S6201…"FReplace this instanceof check and cast with 'instanceof NewsF1 newsf1'(± Ë°ûÿÿÿÿ8íÄ‚×ù1J$f15d2038-d7e0-4aac-a5af-acfda139627e
+
+java:S6201…"FReplace this instanceof check and cast with 'instanceof NewsF1 newsf1'(± Ë°ûÿÿÿÿ8îÄ‚×ù1J$8c9b97b5-60a8-4b9a-a203-b26ade8501d8
+s	java:S106"+Replace this use of System.out by a logger.(Ú‰€Ëûÿÿÿÿ8úÄ‚×ù1J$5012d702-6f74-4506-b22e-77621cbd7c29
+s	java:S106‘"+Replace this use of System.out by a logger.(ÇÓ¢“ÿÿÿÿÿ8ûÄ‚×ù1J$0d800098-c2fd-421f-ae32-d3c658d9713d
+
+java:S6201"JReplace this instanceof check and cast with 'instanceof NewsMoto newsmoto'(é‘ğè8òÄ‚×ù1J$5c77376c-5e05-4698-9e38-296018bf1db5
+n	java:S106§"+Replace this use of System.out by a logger.(”â¬ï8ûÄ‚×ù1J$43ecc917-fdb2-405c-b9e2-b397867e38a3
+s	java:S106©"+Replace this use of System.out by a logger.(—Šºëÿÿÿÿÿ8ûÄ‚×ù1J$5d4dd075-4319-4433-8246-f936fc46b376
+›
+java:S3776±"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(‹¥ˆƒıÿÿÿÿ8õÄ‚×ù1J$5e2a5fb2-29cb-49e1-8fa4-3f41be7604f0
+n	java:S106³"+Replace this use of System.out by a logger.(å¾Ü®8üÄ‚×ù1J$35d58085-7dff-4f31-913f-2ade1b22fbde
+n	java:S106¸"+Replace this use of System.out by a logger.(Ççˆ’8üÄ‚×ù1J$b9b7f3a3-0a4a-43dd-9256-dae5992ea22d
+s	java:S106½"+Replace this use of System.out by a logger.(ñ¨­—ùÿÿÿÿ8üÄ‚×ù1J$113df282-8f3c-47bd-965f-d16c65ac0a5f
+n	java:S106Å"+Replace this use of System.out by a logger.(ùÏîö8ıÄ‚×ù1J$1cc062a5-2180-4a13-8685-0846d58597fd
+n	java:S106Ç"+Replace this use of System.out by a logger.(À‘Î8şÄ‚×ù1J$edccc087-b4de-4c74-ab0c-642bbd6b774d
+n	java:S106Î"+Replace this use of System.out by a logger.(ÓÂ¹ğ8ÿÄ‚×ù1J$91f6f069-fc3a-49d9-b8b4-2256b9b882c9
+n	java:S106Ğ"+Replace this use of System.out by a logger.(À‘Î8ÿÄ‚×ù1J$1d056c2b-c47b-406d-807e-8b4d3cb4be25
+s	java:S106×"+Replace this use of System.out by a logger.(˜²õÖıÿÿÿÿ8Å‚×ù1J$d69d9eaa-eec8-4691-af62-f0582a6ee5a6
+n	java:S106Ù"+Replace this use of System.out by a logger.(À‘Î8‚Å‚×ù1J$b80f961e-588b-4dca-baa5-f19516f81466
+s	java:S106á"+Replace this use of System.out by a logger.(Ûµ–ûÿÿÿÿ8ƒÅ‚×ù1J$8f4ba6c3-327f-4db9-994a-650b9ede6e1b
+n	java:S106ã"+Replace this use of System.out by a logger.(À‘Î8ƒÅ‚×ù1J$d20d2bb9-d28f-4db2-bc62-2804129adc41
+s	java:S106ê"+Replace this use of System.out by a logger.(‡ÕÑòùÿÿÿÿ8„Å‚×ù1J$e8a7aba0-630f-4040-b0d8-1ce94fbc0291
+n	java:S106ì"+Replace this use of System.out by a logger.(À‘Î8…Å‚×ù1J$af02cf6b-d9f9-4659-91dd-78735c65b909
+n	java:S106ğ"+Replace this use of System.out by a logger.(¢ÿÀî8…Å‚×ù1J$4bb8bc6f-aa54-43c5-87cc-b71d16c24693
+s	java:S106÷"+Replace this use of System.out by a logger.(×…¸¯ÿÿÿÿÿ8‡Å‚×ù1J$9c0cb5ff-594b-4dc2-bb01-a1e643968f51
+n	java:S106ü"+Replace this use of System.out by a logger.(€É‹û8‡Å‚×ù1J$2f1a24c1-2d17-4c4c-b547-59bab3279589
+m	java:S106ş"+Replace this use of System.out by a logger.(³ú£h8‡Å‚×ù1J$7c6a13fd-920e-4b2b-ba4f-1c65fb024896
+s	java:S106„"+Replace this use of System.out by a logger.(×…¸¯ÿÿÿÿÿ8Û…×ù1J$ec8011f8-b8e6-432b-9ffc-2136d81a263a
+s	java:S106†"+Replace this use of System.out by a logger.(ñ¨­—ùÿÿÿÿ8Û…×ù1J$5c2b3081-11c0-4d20-ad86-f625ad9c84d0
+n	java:S106”"+Replace this use of System.out by a logger.(§êĞÄ8Û…×ù1J$f6f6a6c6-cc99-453d-a591-c13618a278ef
+s	java:S106–"+Replace this use of System.out by a logger.(Ğª‹óşÿÿÿÿ8Û…×ù1J$ca5b4e89-d7ea-4b7e-ab3d-8e761eede57e
+s	java:S106™"+Replace this use of System.out by a logger.(»¼Ü•ûÿÿÿÿ8Û…×ù1J$39351499-3b5f-40d9-9d6a-e8cb65d2e10e
+s	java:S106Ÿ"+Replace this use of System.out by a logger.(×…¸¯ÿÿÿÿÿ8‘Û…×ù1J$b090cd42-e10c-48b5-a2f6-4e452a3c4097
+s	java:S106¡"+Replace this use of System.out by a logger.(ñ¨­—ùÿÿÿÿ8‘Û…×ù1J$6a1eb6ff-6377-4971-8b9f-2cd7bb8ed5e2
+s	java:S106¯"+Replace this use of System.out by a logger.(’ÒäÕùÿÿÿÿ8“Û…×ù1J$27792098-2545-4007-b775-5b6b3ca146a5
+s	java:S106±"+Replace this use of System.out by a logger.(Ğª‹óşÿÿÿÿ8”Û…×ù1J$596d0ad0-be70-4709-bd72-0ba48fccab75
+s	java:S106´"+Replace this use of System.out by a logger.(»¼Ü•ûÿÿÿÿ8”Û…×ù1J$9edec636-6469-4c17-a790-7c2a379f956e

@@ -5,15 +5,15 @@ public abstract class Instrumento {
         System.out.println("La clase Instrumento ha sido cargada.");
     }
 
-    private String nombre;
-    private double precio;
+    protected String nombre;
+    protected double precio;
 
     public Instrumento(String nombre, double precio) {
         this.nombre = nombre;
         this.precio = precio;
     }
 
-    public abstract void tocacar();
+    public abstract String tocar();
 
     public String getNombre() {
         return nombre;
@@ -30,7 +30,5 @@ public abstract class Instrumento {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
-
-
 }
 

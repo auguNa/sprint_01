@@ -1,57 +1,58 @@
 package s01_01.n3ejercicio1;
 
-public class NoticiaBaloncesto extends Noticia {
-    private String competicion;
+public class NewsBasketball extends News {
+    private String competition;
     private String club;
-    private static int contador = 1;
+    private static int counter = 1;
     private final int id;
 
-    public NoticiaBaloncesto(String titular, String competicion, String club) {
-        super(titular);
-        this.competicion = competicion;
-        this.club = club;
-        this.id = contador ++;
-        calcularPrecioNoticia();
-        calcularPuntuacion();
+    public NewsBasketball(String owner, String competition, String club) {
+        super(owner);
+        this.competition    = competition;
+        this.club           = club;
+        this.id             = counter ++;
+        calculatePriceNews();
+        calculatePunctuation();
     }
     public int getId() {
         return id;
     }
     @Override
-    public void calcularPrecioNoticia() {
-        this.precio = 250;
-        if (competicion.equalsIgnoreCase("Euroliga")) {
-            precio += 75;
+    public void calculatePriceNews() {
+        this.price = 250;
+        if (competition.equalsIgnoreCase("Euroliga")) {
+            price += 75;
         }
         if (club.equalsIgnoreCase("Barça") || club.equalsIgnoreCase("Madrid")) {
-            precio += 75;
+            price += 75;
         }
-        setPrecio(precio);
+        setPrice(price);
     }
 
     @Override
-    public void calcularPuntuacion() {
-        int puntuacion = 4;
-        if (competicion.equalsIgnoreCase("Euroliga")) {
-            puntuacion += 3;
-        } else if (competicion.equalsIgnoreCase("ABC")) {
-            puntuacion += 2;
+    public void calculatePunctuation() {
+        int punctuation = 4;
+        if (competition.equalsIgnoreCase("Euroliga")) {
+            punctuation += 3;
+        } else if (competition.equalsIgnoreCase("ABC")) {
+            punctuation += 2;
         }
         if (club.equalsIgnoreCase("Barça") || club.equalsIgnoreCase("Madrid")) {
-            puntuacion += 1;
+            punctuation += 1;
         }
-        setPuntuacion(puntuacion);
+        setPunctuation(punctuation);
     }
 
     @Override
     public String toString() {
-        return "NoticiaBaloncesto{" +
-                "competicion='" + competicion + '\'' +
+        return "NewsBasketball{" +
+                "competition='" + competition + '\'' +
                 ", club='" + club + '\'' +
-                ", titular='" + titular + '\'' +
-                ", texto='" + texto + '\'' +
-                ", puntuacion=" + puntuacion +
-                ", precio=" + precio +
+                ", id=" + id +
+                ", owner='" + owner + '\'' +
+                ", text='" + text + '\'' +
+                ", punctuation=" + punctuation +
+                ", price=" + price +
                 '}';
     }
 }

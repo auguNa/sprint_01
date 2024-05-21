@@ -1,22 +1,28 @@
-package s01_03.n2ejercicio1;
+package s01_03.n2ejercicio2;
 
-import java.util.HashSet;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        HashSet<Restaurant> restaurants = new HashSet<>();
-        Restaurant r1 = new Restaurant("Restaurant A", 5);
-        Restaurant r2 = new Restaurant("Restaurant A", 5);
-        Restaurant r3 = new Restaurant("Restaurant B", 4);
-        Restaurant r4 = new Restaurant("Restaurant A", 3);
+        Set<Restaurant> restaurants = new TreeSet<>();
 
+        Restaurant r1 = new Restaurant("Restaurant A", 5);
+        Restaurant r2 = new Restaurant("Restaurant A", 3);
+        Restaurant r3 = new Restaurant("Restaurant B", 4);
+        Restaurant r4 = new Restaurant("Restaurant A", 5); // Duplicate
+        Restaurant r5 = new Restaurant("Restaurant C", 5);
+
+        // Add restaurants to the set
         restaurants.add(r1);
         restaurants.add(r2);
         restaurants.add(r3);
-        restaurants.add(r4);
+        restaurants.add(r4); // This should not be added as it's a duplicate
+        restaurants.add(r5);
 
+        // Print the TreeSet (which will be sorted)
         for (Restaurant r : restaurants) {
             System.out.println(r);
         }
     }
 }
+

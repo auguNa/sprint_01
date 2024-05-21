@@ -1,16 +1,16 @@
 package s01_01.n3ejercicio1;
+
 import java.util.ArrayList;
 
-public class Redactor {
-    protected final String DNI;
+public class Editor {
+    private final String DNI;
     private String name;
-    private double salary = 1500;
+    private static double salary = 1500;
     private ArrayList<News> writtenNews;
 
-    public Redactor(String name, String dni) {
+    public Editor(String name, String dni) {
         this.name = name;
         DNI = dni;
-        this.salary = salary;
         this.writtenNews = new ArrayList<>();
     }
 
@@ -30,15 +30,16 @@ public class Redactor {
         return salary;
     }
 
-    public void crearNews(News news) {
+    public void createNews(News news) {
         writtenNews.add(news);
     }
-    public void eliminarNews(News news) {
+
+    public void deleteNews(News news) {
         writtenNews.remove(news);
     }
 
     public String toString() {
-        return "Redactor" +
+        return "Editor" +
                 "name='" + name + '\'' +
                 ", dni='" + DNI + '\'' +
                 ", salary=" + salary;

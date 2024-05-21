@@ -1,34 +1,40 @@
 package s01_01.n3ejercicio1;
 
 public abstract class News {
-
-
-    protected String titular;
+    protected String owner;
     protected String text;
     protected int punctuation;
     protected double price;
 
-    public News(String titular) {
-        this.titular = titular;
+    public News(String owner) {
+        this.owner = owner;
         this.text = " ";
-
     }
 
     public abstract void calculatePriceNews();
+
     public abstract void calculatePunctuation();
 
-    
+    public abstract int getId();
 
-    public String getTitular() {
-        return titular;
+    public String getOwner() {
+        return owner;
     }
 
     public String getText() {
         return text;
     }
 
+    public void setText(String text) {
+        this.text = text;
+    }
+
     public int getPunctuation() {
         return punctuation;
+    }
+
+    public void setPunctuation(int punctuation) {
+        this.punctuation = punctuation;
     }
 
     public double getPrice() {
@@ -37,13 +43,5 @@ public abstract class News {
 
     public void setPrice(double price) {
         this.price = price;
-    }
-
-    public void setPunctuation(int punctuation) {
-        this.punctuation = punctuation;
-    }
-
-    public void setText(String text) {
-        this.text = text;
     }
 }

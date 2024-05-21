@@ -1,69 +1,68 @@
 package s01_01.n3ejercicio1;
 
-public class NoticiaFutbol extends Noticia {
-    private String competicion;
+public class NewsFootball extends News {
+    private static int counter = 1;
+    private final int ID;
+    private String competition;
     private String club;
-    private String jugador;
-    private static int contador = 1;
-    private final int id;
+    private String player;
 
-
-    public NoticiaFutbol(String titular, String competicion, String club,
-                         String jugador) {
-        super(titular);
-        this.competicion = competicion;
+    public NewsFootball(String owner, String competition, String club,
+                        String player) {
+        super(owner);
+        this.competition = competition;
         this.club = club;
-        this.jugador = jugador;
-        this.id = contador ++;
-        calcularPrecioNoticia();
-        calcularPuntuacion();
+        this.player = player;
+        this.ID = counter++;
+        calculatePriceNews();
+        calculatePunctuation();
     }
 
-    public void calcularPrecioNoticia() {
-        this.precio = 300;
-        if (competicion.equalsIgnoreCase("Liga de Campeones")) {
-            precio += 100;
+    public void calculatePriceNews() {
+        this.price = 300;
+        if (competition.equalsIgnoreCase("Liga de Campeones")) {
+            price += 100;
         }
         if (club.equalsIgnoreCase("Barça") || club.equalsIgnoreCase("Madrid")) {
-            precio += 100;
+            price += 100;
         }
-        if (jugador.equalsIgnoreCase("Ferran Torres") || jugador.equalsIgnoreCase("Benzema")) {
-            precio += 50;
+        if (player.equalsIgnoreCase("Ferran Torres") || player.equalsIgnoreCase("Benzema")) {
+            price += 50;
         }
-        setPrecio(precio);
+        setPrice(price);
     }
 
     @Override
-    public void calcularPuntuacion() {
-        int puntuacion = 5;
-        if (competicion.equalsIgnoreCase("Liga de Campeones")) {
-            puntuacion += 3;
-        } else if (competicion.equalsIgnoreCase("Liga")) {
-            puntuacion += 2;
+    public void calculatePunctuation() {
+        int punctuation = 5;
+        if (competition.equalsIgnoreCase("Liga de Campeones")) {
+            punctuation += 3;
+        } else if (competition.equalsIgnoreCase("Liga")) {
+            punctuation += 2;
         }
         if (club.equalsIgnoreCase("Barça") || club.equalsIgnoreCase("Madrid")) {
-            puntuacion += 1;
+            punctuation += 1;
         }
-        if (jugador.equalsIgnoreCase("Ferran Torres") || jugador.equalsIgnoreCase("Benzema")) {
-            puntuacion += 1;
+        if (player.equalsIgnoreCase("Ferran Torres") || player.equalsIgnoreCase("Benzema")) {
+            punctuation += 1;
         }
-        setPuntuacion(puntuacion);
+        setPunctuation(punctuation);
     }
 
     public int getId() {
-        return id;
+        return ID;
     }
 
     @Override
     public String toString() {
-        return "NoticiaFutbol{" +
-                "competicion='" + competicion + '\'' +
+        return "NewsFutbol{" +
+                "competition='" + competition + '\'' +
                 ", club='" + club + '\'' +
-                ", jugador='" + jugador + '\'' +
-                ", titular='" + titular + '\'' +
-                ", texto='" + texto + '\'' +
-                ", puntuacion=" + puntuacion +
-                ", precio=" + precio +
+                ", player='" + player + '\'' +
+                ", owner='" + owner + '\'' +
+                ", text='" + text + '\'' +
+                ", punctuation=" + punctuation +
+                ", price=" + price +
                 '}';
     }
 }

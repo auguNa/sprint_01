@@ -1,0 +1,5 @@
+
+¸
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(€Ç»İúÿÿÿÿ8œ˜×ù1J$e8ff49f0-dd86-46cb-8d68-466d19d3a0ac
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íğ¯Ø8˜×ù1J$09f4cc16-c7ab-4bd5-b927-0731a9750b5b
+	java:S116"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØâÂ©8¦˜×ù1J$2890e086-9977-420a-9bb6-4ec0156b36e7
